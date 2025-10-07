@@ -1,0 +1,40 @@
+{
+  "name": "claude-code-prompt-logger",
+  "version": "1.0.0",
+  "description": "Tools for exporting and analyzing Claude Code session history to improve prompt communication skills and document workflows",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "prompt",
+    "analysis",
+    "logging",
+    "productivity",
+    "ai",
+    "developer-tools"
+  ],
+  "author": "Marty Bonacci",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martybonacci/claude-code-prompt-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martybonacci/claude-code-prompt-logger/issues"
+  },
+  "homepage": "https://github.com/martybonacci/claude-code-prompt-logger#readme",
+  "scripts": {
+    "install-commands": "./install.sh",
+    "uninstall-commands": "./uninstall.sh"
+  },
+  "files": [
+    ".claude/",
+    "install.sh",
+    "uninstall.sh",
+    "README.md",
+    "CLAUDE.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
